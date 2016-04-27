@@ -12,3 +12,4 @@ end
 
 sum = MultipleAdder.new
 sum.sum_of_multiple(500)
+sum.sum_of_multiple(1000)
