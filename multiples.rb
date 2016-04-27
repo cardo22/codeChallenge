@@ -7,7 +7,7 @@ class MultipleAdder
 		num * 3 || num * == 0
 			sum = num += num
 		end
-		puts sum
+		sum
 	end
 end
 
