@@ -3,10 +3,11 @@ class MultipleAdder
 	end
 
 	def sum_of_multiple(add)
-		if add * 3 || add * == 0
-			add += add
+		1.upto(add) do |num|
+		num * 3 || num * == 0
+			sum = num += num
 		end
-		puts add
+		puts sum
 	end
 end
 
